@@ -31,6 +31,12 @@ namespace NowPlayingV2.NowPlaying
         public string Year { get; protected set; }
         [JsonProperty("group")]
         public string Group { get; protected set; }
+        [JsonProperty("bitrate")]
+        public string bitrate { get; protected set; }
+        [JsonProperty("samplerate")]
+        public string samplerate { get; protected set; }
+        [JsonProperty("codec")]
+        public string codec { get; protected set; }
 
         private Bitmap cachebitmap = null;
 
